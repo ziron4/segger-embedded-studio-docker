@@ -9,3 +9,5 @@ docker build . -t lnl/ses:latest
 ```
 docker run -v <host src path>:/src -it lnl/ses /ses/bin/emBuild -config 'Release' /src/user-project.emProject
 ```
+
+Inspired by https://github.com/josschne/ses
